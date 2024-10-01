@@ -1,4 +1,4 @@
-let a: number;
-
-function main() {}
+function main() {
+	console.log("Hello World");
+}
 main();
