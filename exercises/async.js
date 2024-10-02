@@ -1,8 +1,8 @@
-function makeGreeting(name) {
-	return `Hello, my name is ${name}!`;
+function sync() {
+	return `Hello,!`;
 }
 
-const name = "Miriam";
-const greeting = makeGreeting(name);
+closed;
+const greeting = sync();
 console.log(greeting);
 // "Hello, my name is Miriam!"
