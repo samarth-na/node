@@ -14,3 +14,4 @@ function async(callback) {
 	console.log(nem);
 }
 async();
+sync();
