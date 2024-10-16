@@ -1,25 +1,33 @@
-let arr: number[] = [1, 2, 3, 4, 4, 5, 6];
+const arr: number[] = [2, 3, 4, 5, 6, 7, 8];
 
-function rev(arr: number[]) {
-	let newarr: number[] = [];
-	let len: number = arr.length - 1;
+function revbin(arr: number[]) {
+	const len = arr.length;
+	const mid = Math.round(arr.length / 2) - 1;
 
-	for (len; len >= 0; len--) {
-		console.log(len);
-		newarr.push(arr[len]);
+	console.log(len, mid, arr[mid], "\n");
+
+	if (len % 2 === 0) {
+		console.log("even");
+
+		for (let i = 0; i <= mid; i++) {
+			const temp = arr[i];
+
+			arr[i] = arr[len - i - 1];
+			arr[len - i - 1] = temp;
+		}
+	} else {
+		console.log("odd");
+
+		for (let i = 1; i <= mid; i++) {
+			const temp = arr[mid - i];
+
+			arr[mid - i] = arr[mid + i];
+			arr[mid + i] = temp;
+		}
 	}
 
-	return newarr;
-}
-console.log(rev(arr));
+	console.log(arr);
 
-//let arra = 1;
-//let arrr = 2;
-//let temp = arra;
-//
-//console.log(arra, arrr);
-//
-//arra = arrr;
-//arrr = temp;
-//
-//console.log(arra, arrr);
+	return arr;
+}
+revbin(arr);
