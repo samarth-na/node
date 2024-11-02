@@ -1,0 +1,68 @@
+
+<?xml version="1.0"?>
+<SearchSuggestion version="2.0" xmlns="http://opensearch.org/searchsuggest2">
+	<warnings>
+		<main xml:space="preserve">Unrecognized parameter: formatversion.</main>
+	</warnings>
+	<Query xml:space="preserve">java</Query>
+	<Section>
+		<Item>
+			<Text xml:space="preserve">Java</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/Java</Url>
+			<Image
+				source="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Java_Topography.png/50px-Java_Topography.png"
+				width="50" height="31" />
+		</Item>
+		<Item>
+			<Text xml:space="preserve">Java (programming language)</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/Java_(programming_language)</Url>
+		</Item>
+		<Item>
+			<Text xml:space="preserve">JavaScript</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/JavaScript</Url>
+			<Image
+				source="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/JavaScript_code.png/50px-JavaScript_code.png"
+				width="50" height="33" />
+		</Item>
+		<Item>
+			<Text xml:space="preserve">Java version history</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/Java_version_history</Url>
+		</Item>
+		<Item>
+			<Text xml:space="preserve">Javanese language</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/Javanese_language</Url>
+			<Image
+				source="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Javanese_script.png/50px-Javanese_script.png"
+				width="50" height="50" />
+		</Item>
+		<Item>
+			<Text xml:space="preserve">Javanese script</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/Javanese_script</Url>
+		</Item>
+		<Item>
+			<Text xml:space="preserve">Java (software platform)</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/Java_(software_platform)</Url>
+			<Image
+				source="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Aspectotuxguitar.jpg/50px-Aspectotuxguitar.jpg"
+				width="50" height="39" />
+		</Item>
+		<Item>
+			<Text xml:space="preserve">Javanese people</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/Javanese_people</Url>
+			<Image
+				source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Traditional_Javanese_marriage_costume.jpg/50px-Traditional_Javanese_marriage_costume.jpg"
+				width="50" height="72" />
+		</Item>
+		<Item>
+			<Text xml:space="preserve">JaVale McGee</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/JaVale_McGee</Url>
+			<Image
+				source="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/JaVale_McGee_2018_%28cropped%29.jpg/50px-JaVale_McGee_2018_%28cropped%29.jpg"
+				width="50" height="59" />
+		</Item>
+		<Item>
+			<Text xml:space="preserve">Java Platform, Standard Edition</Text>
+			<Url xml:space="preserve">https://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition</Url>
+		</Item>
+	</Section>
+</SearchSuggestion>
