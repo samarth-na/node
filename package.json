@@ -10,11 +10,17 @@
 	"license": "MIT",
 	"description": "node js",
 	"devDependencies": {
+		"@types/cors": "^2.8.17",
+		"@types/express": "^5.0.0",
 		"@typescript-eslint/eslint-plugin": "^8.7.0",
 		"@typescript-eslint/parser": "^8.7.0",
 		"eslint": "^9.11.1",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-prettier": "^5.2.1",
 		"prettier": "^3.3.3"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.21.1"
 	}
 }

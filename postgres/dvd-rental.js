@@ -16,8 +16,6 @@ async function fetchData() {
 		console.error("Database error:", err.message);
 	} finally {
 		await dvdrental.end();
-
-		console.log("Disconnected from PostgreSQL");
 	}
 }
 
