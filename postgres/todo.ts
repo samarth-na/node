@@ -1,19 +1,9 @@
 import { postgres } from "../pg";
 
-class TodoItem {
+interface TodoItem {
 	title: string;
 	description: string;
 	status: string;
-
-	constructor(
-		title: string,
-		description: string,
-		status: string = "pending"
-	) {
-		this.title = title;
-		this.description = description;
-		this.status = status;
-	}
 }
 
 // TODO:
@@ -27,8 +17,7 @@ export async function printRows(): Promise<void> {
 }
 
 function Input(): TodoItem {
-	const task = new TodoItem("clean house", "before 9am");
-
+	let task: TodoItem = { title: "", description: "", status: "" };
 	return task;
 }
 

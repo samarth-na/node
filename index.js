@@ -1,6 +1,6 @@
 // commonjs modules import
 
 function main() {
-	console.log(global);
+	console.log(typeof global);
 }
 main();

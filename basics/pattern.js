@@ -7,3 +7,4 @@ for (const num of numarraay) {
   }
   process.stdout.write("\n");
 }
+
