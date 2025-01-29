@@ -1,11 +1,12 @@
 let nem;
 
-function sync() {
+function _sync() {
 	return `Hello,!`;
 }
 
 function async(callback) {
 	console.log("hello");
+
 	setTimeout(() => {
 		nem = "sam";
 		console.log("i got the name");
@@ -14,4 +15,3 @@ function async(callback) {
 	console.log(nem);
 }
 async();
-sync();
