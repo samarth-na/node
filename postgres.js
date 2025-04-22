@@ -1,6 +1,7 @@
-import { Client } from "pg";
+import pkg from "pg";
+const { Client } = pkg;
 
-const pgp = import.meta.env.pgp;
+const pgp = process.env.pgp;
 
 export const dvdrental = new Client({
 	host: "localhost", // or your server address

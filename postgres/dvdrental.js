@@ -1,4 +1,4 @@
-import { dvdrental } from "../pg.js";
+import { dvdrental } from "../postgres.js";
 async function fetchData() {
 	// Connect to the PostgreSQL database
 
