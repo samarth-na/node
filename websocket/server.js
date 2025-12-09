@@ -8,6 +8,7 @@ wss.on("connection", (ws) => {
 
     ws.on("message", (msg) => {
         // when server gets message
+
         console.log("Received:", msg.toString()); // print message
         ws.send("Server got: " + msg); // send back reply
     });

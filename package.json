@@ -10,20 +10,20 @@
 	"license": "MIT",
 	"description": "node js",
 	"devDependencies": {
-		"@types/cors": "^2.8.17",
-		"@types/express": "^5.0.0",
-		"@typescript-eslint/eslint-plugin": "^8.7.0",
-		"@typescript-eslint/parser": "^8.7.0",
-		"eslint": "^9.11.1",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-prettier": "^5.2.1",
-		"prettier": "^3.3.3"
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.6",
+		"@typescript-eslint/eslint-plugin": "^8.48.1",
+		"@typescript-eslint/parser": "^8.48.1",
+		"eslint": "^9.39.1",
+		"eslint-config-prettier": "^9.1.2",
+		"eslint-plugin-prettier": "^5.5.4",
+		"prettier": "^3.7.3"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
-		"express": "^4.21.1",
+		"express": "^4.22.1",
 		"http": "^0.0.1-security",
-		"pg": "^8.13.3",
+		"pg": "^8.16.3",
 		"ws": "^8.18.3"
 	}
 }
